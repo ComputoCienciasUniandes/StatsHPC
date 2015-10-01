@@ -1,0 +1,110 @@
+###########################################################
+###########################################################
+###########################################################
+09-18-15
+###########################################################
+###########################################################
+###########################################################
+
+#### Summary
+
+active jobs: 45  eligible jobs: 10  blocked jobs: 0  
+
+Total jobs:  55
+
+#### Completed
+
+completed jobs---------------------
+JOBID               S CCODE           PRIO PAR  EFFIC  XFACTOR  Q USERNAME    GROUP            MHOST PROCS    WALLTIME       COMPLETIONTIME           PARTITION
+
+
+0 completed jobs   (purgetime: 00:10:00)  
+
+Total jobs:  0
+
+#### Running
+
+active jobs------------------------
+JOBID                                       S    PRIO PAR  EFFIC  XFACTOR  Q       USERNAME    GROUP            MHOST PROCS   REMAINING            STARTTIME           PARTITION
+
+12051/12051.clustermaster.uniandes.edu.co   R       1 uni   8.00      1.0  -     ja.ramirez mecanica    node-11.local    24  1:12:12:51  Wed Sep 16 07:17:26            uniandes
+12078/12078.clustermaster.uniandes.edu.co   R    1217 uni  98.67      1.2  -     ja.ramirez mecanica     node-4.local    24  2:20:05:53  Thu Sep 17 15:10:28            uniandes
+12156/12156.clustermaster.uniandes.edu.co   R       1 uni  99.96      1.0  -   as.rodriguez  quimica     node-8.local     1  2:20:47:01  Thu Sep 17 15:51:36            uniandes
+10878/10878.clustermaster.uniandes.edu.co   R       1 uni  99.51      1.0  -   da.acevedo10  quimica    node-11.local     1  3:01:01:14  Mon Sep 14 20:05:49            uniandes
+8891/8891.clustermaster.uniandes.edu.co     R    7036 cie  99.93      1.7  -   da.acevedo10  quimica    node-15.local     1  4:13:26:49  Wed Sep 16 08:31:24            ciencias
+12222/12222.clustermaster.uniandes.edu.co   R       1 uni  96.70      1.0  -    s.movilla82  quimica     node-2.local    21  6:20:25:49  Fri Sep 18 15:30:24            uniandes
+12223/12223.clustermaster.uniandes.edu.co   R       1 cie  96.07      1.0  -    s.movilla82  quimica    node-16.local    21  6:20:30:54  Fri Sep 18 15:35:29            ciencias
+12224/12224.clustermaster.uniandes.edu.co   R       1 cie  98.68      1.0  -    s.movilla82  quimica    node-15.local    21  6:20:34:16  Fri Sep 18 15:38:51            ciencias
+12228/12228.clustermaster.uniandes.edu.co   R       6 cie  98.56      1.0  -  gp.miscione57  quimica    node-19.local     8  6:22:38:01  Fri Sep 18 17:42:36            ciencias
+12229/12229.clustermaster.uniandes.edu.co   R       6 cie  97.57      1.0  -  gp.miscione57  quimica    node-18.local     8  6:22:40:17  Fri Sep 18 17:44:52            ciencias
+10197/10197.clustermaster.uniandes.edu.co   R       1 uni  98.98      1.0  -     jt.tatchen  quimica    node-11.local     1 15:00:56:45  Sun Sep 13 20:01:20            uniandes
+10221/10221.clustermaster.uniandes.edu.co   R       1 uni  98.98      1.0  -     jt.tatchen  quimica    node-11.local     1 15:01:45:04  Sun Sep 13 20:49:39            uniandes
+10889/10889.clustermaster.uniandes.edu.co   R       1 uni  98.98      1.0  -     jt.tatchen  quimica    node-11.local     1 16:02:51:27  Mon Sep 14 21:56:02            uniandes
+12201/12201.clustermaster.uniandes.edu.co   R       1 uni  97.39      1.0  -     jt.tatchen  quimica     node-6.local     1 19:17:24:15  Fri Sep 18 12:28:50            uniandes
+12202/12202.clustermaster.uniandes.edu.co   R       1 uni  98.52      1.0  -     jt.tatchen  quimica     node-6.local     1 19:17:25:47  Fri Sep 18 12:30:22            uniandes
+12203/12203.clustermaster.uniandes.edu.co   R       1 uni  98.67      1.0  -     jt.tatchen  quimica     node-6.local     1 19:17:42:32  Fri Sep 18 12:47:07            uniandes
+12204/12204.clustermaster.uniandes.edu.co   R       1 uni  97.93      1.0  -     jt.tatchen  quimica     node-6.local     1 19:17:45:26  Fri Sep 18 12:50:01            uniandes
+12205/12205.clustermaster.uniandes.edu.co   R       1 uni  96.58      1.0  -     jt.tatchen  quimica     node-6.local     1 19:17:47:09  Fri Sep 18 12:51:44            uniandes
+12206/12206.clustermaster.uniandes.edu.co   R       1 uni  94.48      1.0  -     jt.tatchen  quimica     node-8.local     1 19:17:58:43  Fri Sep 18 13:03:18            uniandes
+12207/12207.clustermaster.uniandes.edu.co   R       1 uni  94.57      1.0  -     jt.tatchen  quimica     node-6.local     1 19:17:59:16  Fri Sep 18 13:03:51            uniandes
+12208/12208.clustermaster.uniandes.edu.co   R       1 uni  94.53      1.0  -     jt.tatchen  quimica     node-6.local     1 19:17:59:46  Fri Sep 18 13:04:21            uniandes
+12209/12209.clustermaster.uniandes.edu.co   R       1 uni  94.63      1.0  -     jt.tatchen  quimica     node-6.local     1 19:18:00:05  Fri Sep 18 13:04:40            uniandes
+12210/12210.clustermaster.uniandes.edu.co   R       1 uni  98.62      1.0  -     jt.tatchen  quimica     node-6.local     1 19:18:03:55  Fri Sep 18 13:08:30            uniandes
+12211/12211.clustermaster.uniandes.edu.co   R       1 uni  98.58      1.0  -     jt.tatchen  quimica     node-6.local     1 19:18:05:03  Fri Sep 18 13:09:38            uniandes
+12212/12212.clustermaster.uniandes.edu.co   R       1 uni  98.56      1.0  -     jt.tatchen  quimica     node-6.local     1 19:18:07:10  Fri Sep 18 13:11:45            uniandes
+12213/12213.clustermaster.uniandes.edu.co   R       1 uni  98.79      1.0  -     jt.tatchen  quimica     node-6.local     1 19:18:09:12  Fri Sep 18 13:13:47            uniandes
+12214/12214.clustermaster.uniandes.edu.co   R       1 uni  95.84      1.0  -     jt.tatchen  quimica     node-3.local     1 19:18:11:42  Fri Sep 18 13:16:17            uniandes
+12215/12215.clustermaster.uniandes.edu.co   R       1 uni  93.93      1.0  -     jt.tatchen  quimica     node-3.local     1 19:18:12:00  Fri Sep 18 13:16:35            uniandes
+12225/12225.clustermaster.uniandes.edu.co   R       1 uni  96.27      1.0  -   as.rodriguez  quimica     node-3.local     4 39:20:44:26  Fri Sep 18 15:49:01            uniandes
+12155/12155.clustermaster.uniandes.edu.co   R       1 uni  99.48      1.0  -   as.rodriguez  quimica     node-6.local     1 40:11:41:45  Thu Sep 17 15:46:20            uniandes
+4625/4625.clustermaster.uniandes.edu.co     R       1 uni  99.35      1.0  -     fj.gomez34   fisica     node-2.local     1 63:22:13:37  Thu Aug 13 17:18:13            uniandes
+8235/8235.clustermaster.uniandes.edu.co     R    1344 BIG  49.78      1.0  -   je.lopez1887 ing_quim     node-1.local    24 87:19:32:24  Sun Sep  6 14:37:00              BIGMEM
+8262/8262.clustermaster.uniandes.edu.co     R       1 BIG  49.43      1.0  -   je.lopez1887 ing_quim     node-1.local    24 88:16:14:37  Mon Sep  7 11:19:13              BIGMEM
+8263/8263.clustermaster.uniandes.edu.co     R    1650 uni  99.55      1.0  -   je.lopez1887 ing_quim    node-12.local    24 89:20:06:30  Tue Sep  8 15:11:06            uniandes
+8839/8839.clustermaster.uniandes.edu.co     R       1 uni  99.04      1.0  -   jl.moreno116 biologia     node-6.local     1 92:02:10:59  Thu Sep 10 21:15:35            uniandes
+8589/8589.clustermaster.uniandes.edu.co     R    1202 uni  58.06      1.0  -   ja.agudelo10   fisica     node-9.local    16 92:10:50:01  Fri Sep 11 05:54:37            uniandes
+8590/8590.clustermaster.uniandes.edu.co     R    1933 uni  57.46      1.0  -   ja.agudelo10   fisica     node-8.local    16 92:23:01:15  Fri Sep 11 18:05:51            uniandes
+8591/8591.clustermaster.uniandes.edu.co     R    3738 uni  58.29      1.0  -   ja.agudelo10   fisica     node-3.local    16 94:05:05:31  Sun Sep 13 00:10:07            uniandes
+8592/8592.clustermaster.uniandes.edu.co     R    3857 uni  57.87      1.0  -   ja.agudelo10   fisica     node-5.local    16 94:07:04:30  Sun Sep 13 02:09:06            uniandes
+8593/8593.clustermaster.uniandes.edu.co     R    4494 uni  57.83      1.0  -   ja.agudelo10   fisica    node-11.local    16 94:17:41:54  Sun Sep 13 12:46:30            uniandes
+12064/12064.clustermaster.uniandes.edu.co   R       1 uni  12.49      1.0  -      m.diaz565 matemati     node-5.local     8 97:20:26:56  Wed Sep 16 15:31:32            uniandes
+12160/12160.clustermaster.uniandes.edu.co   R       1 uni  99.59      1.0  -     fj.gomez34   fisica     node-6.local     1 98:22:38:59  Thu Sep 17 17:43:35            uniandes
+12168/12168.clustermaster.uniandes.edu.co   R       1 uni  99.79      1.0  -     fj.gomez34   fisica     node-6.local     1 98:23:00:53  Thu Sep 17 18:05:29            uniandes
+12169/12169.clustermaster.uniandes.edu.co   R       1 cie   6.66      1.0  -      m.diaz565 matemati    node-17.local    15 99:01:06:42  Thu Sep 17 20:11:18            ciencias
+12227/12227.clustermaster.uniandes.edu.co   R       1 uni  99.91      1.0  -     fj.gomez34   fisica     node-3.local     1 99:22:18:43  Fri Sep 18 17:23:19            uniandes
+
+45 active jobs          333 of 456 processors in use by local jobs (73.03%)
+                          16 of 19 nodes active      (84.21%)
+
+Total jobs:  45
+
+#### Idle
+
+eligible jobs----------------------
+JOBID                                         PRIORITY  XFACTOR  Q      USERNAME    GROUP  PROCS     WCLIMIT     CLASS         RSVSTARTTIME           PARTITION
+
+5100/5100.clustermaster.uniandes.edu.co          43321     32.4  -  rp.salazar84   fisica      1    23:00:00     batch                   ---  uniandes,ciencias
+5101/5101.clustermaster.uniandes.edu.co          43320     32.4  -  rp.salazar84   fisica      1    23:00:00     batch                   ---  uniandes,ciencias
+8539/8539.clustermaster.uniandes.edu.co          13002      2.3  -  da.acevedo10  quimica      1  7:00:00:00     batch                   ---  uniandes,ciencias
+8559/8559.clustermaster.uniandes.edu.co          12950      2.3  -  da.acevedo10  quimica      1  7:00:00:00     batch                   ---  uniandes,ciencias
+8567/8567.clustermaster.uniandes.edu.co          12915      2.3  -  da.acevedo10  quimica      1  7:00:00:00     batch                   ---  uniandes,ciencias
+8568/8568.clustermaster.uniandes.edu.co          12901      2.3  -  da.acevedo10  quimica      1  7:00:00:00     batch                   ---  uniandes,ciencias
+12109/12109.clustermaster.uniandes.edu.co         2000      1.0  -    jj.ortiz24 ing_quim     48 99:00:00:00     batch                   ---           uniandes
+12150/12150.clustermaster.uniandes.edu.co         1677      1.0  -    jj.ortiz24 ing_quim     24 99:00:00:00     batch                   ---           uniandes
+12172/12172.clustermaster.uniandes.edu.co          642      1.1  -    ja.ramirez mecanica     24  4:00:00:00     batch                   ---    SHARED,uniandes
+12217/12217.clustermaster.uniandes.edu.co          294      1.0  -    jj.ortiz24 ing_quim     32 99:00:00:00     batch                   ---    SHARED,uniandes
+
+10 eligible jobs   
+
+Total jobs:  10
+
+#### Blocked
+
+blocked jobs-----------------------
+JOBID              USERNAME      STATE PROCS     WCLIMIT            QUEUETIME            PARTITION
+
+
+0 blocked jobs   
+
+Total jobs:  0
+

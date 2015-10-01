@@ -1,0 +1,198 @@
+###########################################################
+###########################################################
+###########################################################
+09-18-15
+###########################################################
+###########################################################
+###########################################################
+
+node-1.local
+     state = job-exclusive
+     power_state = Running
+     np = 24
+     properties = bignode
+     ntype = cluster
+     jobs = 0-11/8235.clustermaster.uniandes.edu.co,12-23/8262.clustermaster.uniandes.edu.co
+     status = rectime=1442621037,macaddr=00:17:a4:77:0c:02,cpuclock=Fixed,varattr=,jobs=8235.clustermaster.uniandes.edu.co(cput=12636261,energy_used=0,mem=4335572kb,vmem=21320012kb,walltime=1052841,session_id=4332) 8262.clustermaster.uniandes.edu.co(cput=11739969,energy_used=0,mem=4289052kb,vmem=21320832kb,walltime=978308,session_id=39576),state=free,netload=4085108857557,gres=,loadave=24.09,ncpus=24,physmem=529407220kb,availmem=502306472kb,totmem=530431212kb,idletime=892685,nusers=1,nsessions=2,sessions=39576 4332,uname=Linux node-1.local 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64,opsys=linux
+     mom_service_port = 15002
+     mom_manager_port = 15003
+
+node-2.local
+     state = free
+     power_state = Running
+     np = 24
+     ntype = cluster
+     jobs = 15/4625.clustermaster.uniandes.edu.co,0-14,16-21/12222.clustermaster.uniandes.edu.co
+     status = rectime=1442621035,macaddr=00:17:a4:77:0c:14,cpuclock=Fixed,varattr=,jobs=4625.clustermaster.uniandes.edu.co(cput=3118563,energy_used=0,mem=386180kb,vmem=610740kb,walltime=3116767,session_id=52977) 12222.clustermaster.uniandes.edu.co(cput=266757,energy_used=0,mem=42938536kb,vmem=70299784kb,walltime=12789,session_id=33517),state=free,netload=11470033203817,gres=,loadave=22.00,ncpus=24,physmem=198450684kb,availmem=152202076kb,totmem=199474676kb,idletime=988371,nusers=2,nsessions=2,sessions=33517 52977,uname=Linux node-2.local 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64,opsys=linux
+     mom_service_port = 15002
+     mom_manager_port = 15003
+
+node-3.local
+     state = free
+     power_state = Running
+     np = 24
+     ntype = cluster
+     jobs = 1-16/8591.clustermaster.uniandes.edu.co,0/12214.clustermaster.uniandes.edu.co,17/12215.clustermaster.uniandes.edu.co,18-21/12225.clustermaster.uniandes.edu.co,22/12227.clustermaster.uniandes.edu.co
+     status = rectime=1442621046,macaddr=00:17:a4:77:0c:26,cpuclock=Fixed,varattr=,jobs=8591.clustermaster.uniandes.edu.co(cput=4599677,energy_used=0,mem=1415164kb,vmem=4436568kb,walltime=500012,session_id=4950) 12214.clustermaster.uniandes.edu.co(cput=20303,energy_used=0,mem=90868kb,vmem=4766044kb,walltime=20842,session_id=45404) 12215.clustermaster.uniandes.edu.co(cput=20144,energy_used=0,mem=90892kb,vmem=4766124kb,walltime=20823,session_id=45460) 12225.clustermaster.uniandes.edu.co(cput=46311,energy_used=0,mem=997384kb,vmem=3620620kb,walltime=11678,session_id=26958) 12227.clustermaster.uniandes.edu.co(cput=6022,energy_used=0,mem=166576kb,vmem=391152kb,walltime=6019,session_id=57896),state=free,netload=3159797858873,gres=,loadave=16.19,ncpus=24,physmem=198450684kb,availmem=194005316kb,totmem=199474676kb,idletime=1380847,nusers=4,nsessions=5,sessions=57896 26958 45460 45404 4950,uname=Linux node-3.local 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64,opsys=linux
+     mom_service_port = 15002
+     mom_manager_port = 15003
+
+node-4.local
+     state = job-exclusive
+     power_state = Running
+     np = 24
+     ntype = cluster
+     jobs = 0-23/12078.clustermaster.uniandes.edu.co
+     status = rectime=1442621034,macaddr=00:17:a4:77:0c:38,cpuclock=Fixed,varattr=,jobs=12078.clustermaster.uniandes.edu.co(cput=2406732,energy_used=0,mem=6198116kb,vmem=22412876kb,walltime=100371,session_id=32687),state=free,netload=4458989018019,gres=,loadave=24.03,ncpus=24,physmem=198450684kb,availmem=187219676kb,totmem=199474676kb,idletime=5126411,nusers=1,nsessions=1,sessions=32687,uname=Linux node-4.local 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64,opsys=linux
+     mom_service_port = 15002
+     mom_manager_port = 15003
+
+node-5.local
+     state = job-exclusive
+     power_state = Running
+     np = 24
+     ntype = cluster
+     jobs = 0-15/8592.clustermaster.uniandes.edu.co,16-23/12064.clustermaster.uniandes.edu.co
+     status = rectime=1442621062,macaddr=00:17:a4:77:0c:4a,cpuclock=Fixed,varattr=,jobs=8592.clustermaster.uniandes.edu.co(cput=4403313,energy_used=0,mem=1417580kb,vmem=4436572kb,walltime=492889,session_id=37357) 12064.clustermaster.uniandes.edu.co(cput=11,energy_used=0,mem=78984kb,vmem=460052kb,walltime=185543,session_id=53229),state=free,netload=1799355270549,gres=,loadave=16.93,ncpus=24,physmem=198450684kb,availmem=191715864kb,totmem=199474676kb,idletime=4929174,nusers=2,nsessions=2,sessions=53229 37357,uname=Linux node-5.local 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64,opsys=linux
+     mom_service_port = 15002
+     mom_manager_port = 15003
+
+node-6.local
+     state = job-exclusive
+     power_state = Running
+     np = 24
+     ntype = cluster
+     jobs = 2/8839.clustermaster.uniandes.edu.co,3,6-7,17-21/12051.clustermaster.uniandes.edu.co,8/12155.clustermaster.uniandes.edu.co,9/12160.clustermaster.uniandes.edu.co,13/12168.clustermaster.uniandes.edu.co,1/12201.clustermaster.uniandes.edu.co,4/12202.clustermaster.uniandes.edu.co,0/12203.clustermaster.uniandes.edu.co,5/12204.clustermaster.uniandes.edu.co,10/12205.clustermaster.uniandes.edu.co,11/12207.clustermaster.uniandes.edu.co,12/12208.clustermaster.uniandes.edu.co,14/12209.clustermaster.uniandes.edu.co,15/12210.clustermaster.uniandes.edu.co,16/12211.clustermaster.uniandes.edu.co,22/12212.clustermaster.uniandes.edu.co,23/12213.clustermaster.uniandes.edu.co
+     status = rectime=1442621038,macaddr=00:17:a4:77:0c:5c,cpuclock=Fixed,varattr=,jobs=8839.clustermaster.uniandes.edu.co(cput=682848,energy_used=0,mem=62512908kb,vmem=64450444kb,walltime=683299,session_id=18450) 12051.clustermaster.uniandes.edu.co 12155.clustermaster.uniandes.edu.co(cput=98250,energy_used=0,mem=1804168kb,vmem=6397132kb,walltime=98254,session_id=25667) 12160.clustermaster.uniandes.edu.co(cput=89824,energy_used=0,mem=8610108kb,vmem=8840248kb,walltime=91220,session_id=33954) 12168.clustermaster.uniandes.edu.co(cput=88589,energy_used=0,mem=6415152kb,vmem=6647404kb,walltime=89905,session_id=35491) 12201.clustermaster.uniandes.edu.co(cput=23398,energy_used=0,mem=58016kb,vmem=620780kb,walltime=23704,session_id=35794) 12202.clustermaster.uniandes.edu.co(cput=23456,energy_used=0,mem=59436kb,vmem=587972kb,walltime=23612,session_id=42600) 12203.clustermaster.uniandes.edu.co(cput=22487,energy_used=0,mem=59460kb,vmem=588024kb,walltime=22607,session_id=41026) 12204.clustermaster.uniandes.edu.co(cput=22208,energy_used=0,mem=57856kb,vmem=620612kb,walltime=22433,session_id=52369) 12205.clustermaster.uniandes.edu.co(cput=22039,energy_used=0,mem=89996kb,vmem=4766228kb,walltime=22330,session_id=432) 12207.clustermaster.uniandes.edu.co(cput=21193,energy_used=0,mem=86756kb,vmem=4766220kb,walltime=21603,session_id=28341) 12208.clustermaster.uniandes.edu.co(cput=21201,energy_used=0,mem=86716kb,vmem=4766200kb,walltime=21572,session_id=32504) 12209.clustermaster.uniandes.edu.co(cput=21185,energy_used=0,mem=90660kb,vmem=4766308kb,walltime=21554,session_id=34274) 12210.clustermaster.uniandes.edu.co(cput=21278,energy_used=0,mem=66196kb,vmem=4766096kb,walltime=21324,session_id=8431) 12211.clustermaster.uniandes.edu.co(cput=21207,energy_used=0,mem=64284kb,vmem=4766232kb,walltime=21256,session_id=19498) 12212.clustermaster.uniandes.edu.co(cput=21064,energy_used=0,mem=65496kb,vmem=4765964kb,walltime=21128,session_id=45758) 12213.clustermaster.uniandes.edu.co(cput=20935,energy_used=0,mem=63684kb,vmem=4765964kb,walltime=21006,session_id=2784),state=free,netload=921113676907,gres=,loadave=22.37,ncpus=24,physmem=198450684kb,availmem=122012964kb,totmem=199474676kb,idletime=1488235,nusers=4,nsessions=16,sessions=2784 45758 19498 8431 34274 32504 28341 432 52369 41026 42600 35794 35491 33954 25667 18450,uname=Linux node-6.local 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64,opsys=linux
+     mom_service_port = 15002
+     mom_manager_port = 15003
+
+node-7.local
+     state = free
+     power_state = Running
+     np = 24
+     properties = bignode
+     ntype = cluster
+     status = rectime=1442621077,macaddr=00:17:a4:77:0c:80,cpuclock=Fixed,varattr=,jobs=,state=free,netload=1251406840470,gres=,loadave=0.00,ncpus=24,physmem=529407220kb,availmem=486885116kb,totmem=530431212kb,idletime=455525,nusers=0,nsessions=0,uname=Linux node-7.local 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64,opsys=linux
+     mom_service_port = 15002
+     mom_manager_port = 15003
+
+node-8.local
+     state = job-exclusive
+     power_state = Running
+     np = 24
+     ntype = cluster
+     jobs = 0-15/8590.clustermaster.uniandes.edu.co,16-17,19,21-23/12051.clustermaster.uniandes.edu.co,20/12156.clustermaster.uniandes.edu.co,18/12206.clustermaster.uniandes.edu.co
+     status = rectime=1442621043,macaddr=00:17:a4:77:0c:92,cpuclock=Fixed,varattr=,jobs=8590.clustermaster.uniandes.edu.co(cput=5564160,energy_used=0,mem=1414752kb,vmem=4436572kb,walltime=608249,session_id=14876) 12051.clustermaster.uniandes.edu.co 12156.clustermaster.uniandes.edu.co(cput=97957,energy_used=0,mem=562108kb,vmem=2662328kb,walltime=97904,session_id=3878) 12206.clustermaster.uniandes.edu.co(cput=21112,energy_used=0,mem=90944kb,vmem=4766124kb,walltime=21601,session_id=7189),state=free,netload=3966862541895,gres=,loadave=16.01,ncpus=24,physmem=198450684kb,availmem=183485368kb,totmem=199474676kb,idletime=5126739,nusers=3,nsessions=3,sessions=7189 3878 14876,uname=Linux node-8.local 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64,opsys=linux
+     mom_service_port = 15002
+     mom_manager_port = 15003
+
+node-9.local
+     state = job-exclusive
+     power_state = Running
+     np = 24
+     ntype = cluster
+     jobs = 0-9,12,16-20/8589.clustermaster.uniandes.edu.co,10-11,13-15,21-23/12051.clustermaster.uniandes.edu.co
+     status = rectime=1442621071,macaddr=00:17:a4:77:0c:a4,cpuclock=Fixed,varattr=,jobs=8589.clustermaster.uniandes.edu.co(cput=5909565,energy_used=0,mem=1415724kb,vmem=4437600kb,walltime=652164,session_id=16141) 12051.clustermaster.uniandes.edu.co,state=free,netload=245618241648,gres=,loadave=8.18,ncpus=24,physmem=198450684kb,availmem=185206356kb,totmem=199474676kb,idletime=2603328,nusers=1,nsessions=1,sessions=16141,uname=Linux node-9.local 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64,opsys=linux
+     mom_service_port = 15002
+     mom_manager_port = 15003
+
+node-10.local
+     state = job-exclusive
+     power_state = Running
+     np = 24
+     properties = bignode
+     ntype = cluster
+     jobs = 0-11/8235.clustermaster.uniandes.edu.co,12-23/8262.clustermaster.uniandes.edu.co
+     status = rectime=1442621068,macaddr=00:17:a4:77:0c:b6,cpuclock=Fixed,varattr=,jobs=8235.clustermaster.uniandes.edu.co 8262.clustermaster.uniandes.edu.co,state=free,netload=1505202461557,gres=,loadave=24.14,ncpus=24,physmem=198450684kb,availmem=184690688kb,totmem=199474676kb,idletime=458975,nusers=0,nsessions=0,uname=Linux node-10.local 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64,opsys=linux
+     mom_service_port = 15002
+     mom_manager_port = 15003
+
+node-11.local
+     state = free
+     power_state = Running
+     np = 24
+     ntype = cluster
+     jobs = 1-16/8593.clustermaster.uniandes.edu.co,17/10197.clustermaster.uniandes.edu.co,22/10221.clustermaster.uniandes.edu.co,20/10878.clustermaster.uniandes.edu.co,18/10889.clustermaster.uniandes.edu.co,19,21/12051.clustermaster.uniandes.edu.co
+     status = rectime=1442621077,macaddr=00:17:a4:77:0c:c8,cpuclock=Fixed,varattr=,jobs=8593.clustermaster.uniandes.edu.co(cput=4071007,energy_used=0,mem=1416208kb,vmem=4436572kb,walltime=454655,session_id=11721) 10197.clustermaster.uniandes.edu.co(cput=426110,energy_used=0,mem=63968kb,vmem=4766140kb,walltime=428565,session_id=55661) 10221.clustermaster.uniandes.edu.co(cput=424150,energy_used=0,mem=63944kb,vmem=4766224kb,walltime=425666,session_id=6593) 10878.clustermaster.uniandes.edu.co(cput=341916,energy_used=0,mem=4156056kb,vmem=4472288kb,walltime=341896,session_id=58663) 10889.clustermaster.uniandes.edu.co(cput=333970,energy_used=0,mem=64108kb,vmem=4766284kb,walltime=335283,session_id=25463) 12051.clustermaster.uniandes.edu.co(cput=430561,energy_used=0,mem=11740984kb,vmem=22488288kb,walltime=215199,session_id=40769),state=free,netload=4924250200037,gres=,loadave=37.27,ncpus=24,physmem=198450684kb,availmem=174220600kb,totmem=199474676kb,idletime=5127644,nusers=4,nsessions=6,sessions=40769 25463 58663 6593 55661 11721,uname=Linux node-11.local 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64,opsys=linux
+     mom_service_port = 15002
+     mom_manager_port = 15003
+
+node-12.local
+     state = job-exclusive
+     power_state = Running
+     np = 24
+     ntype = cluster
+     jobs = 0-23/8263.clustermaster.uniandes.edu.co
+     status = rectime=1442621058,macaddr=00:17:a4:77:0c:da,cpuclock=Fixed,varattr=,jobs=8263.clustermaster.uniandes.edu.co(cput=21073128,energy_used=0,mem=6079188kb,vmem=34504544kb,walltime=877996,session_id=65014),state=free,netload=2403719536721,gres=,loadave=24.03,ncpus=24,physmem=198450684kb,availmem=192556724kb,totmem=199474676kb,idletime=455859,nusers=1,nsessions=1,sessions=65014,uname=Linux node-12.local 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64,opsys=linux
+     mom_service_port = 15002
+     mom_manager_port = 15003
+
+node-13.local
+     state = free
+     power_state = Running
+     np = 24
+     ntype = cluster
+     status = rectime=1442621056,macaddr=38:63:bb:49:36:c8,cpuclock=Fixed,varattr=,jobs=,state=free,netload=1086754723450,gres=,loadave=0.00,ncpus=24,physmem=198450684kb,availmem=185838656kb,totmem=199474676kb,idletime=4251592,nusers=0,nsessions=0,uname=Linux node-13.local 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64,opsys=linux
+     mom_service_port = 15002
+     mom_manager_port = 15003
+
+node-14.local
+     state = free
+     power_state = Running
+     np = 24
+     ntype = cluster
+     status = rectime=1442621062,macaddr=38:63:bb:49:f2:50,cpuclock=Fixed,varattr=,jobs=,state=free,netload=1550911353238,gres=,loadave=0.00,ncpus=24,physmem=198450684kb,availmem=185512568kb,totmem=199474676kb,idletime=5127399,nusers=0,nsessions=0,uname=Linux node-14.local 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64,opsys=linux
+     mom_service_port = 15002
+     mom_manager_port = 15003
+
+node-15.local
+     state = free
+     power_state = Running
+     np = 24
+     ntype = cluster
+     jobs = 0/8891.clustermaster.uniandes.edu.co,1-21/12224.clustermaster.uniandes.edu.co
+     status = rectime=1442621052,macaddr=14:58:d0:45:f7:60,cpuclock=Fixed,varattr=,jobs=8891.clustermaster.uniandes.edu.co(cput=210777,energy_used=0,mem=699144kb,vmem=966348kb,walltime=210742,session_id=57204) 12224.clustermaster.uniandes.edu.co(cput=257719,energy_used=0,mem=47098904kb,vmem=70300216kb,walltime=12294,session_id=45525),state=free,netload=1781360998252,gres=,loadave=22.14,ncpus=24,physmem=198450684kb,availmem=136803764kb,totmem=199474676kb,idletime=2171538,nusers=2,nsessions=2,sessions=45525 57204,uname=Linux node-15.local 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64,opsys=linux
+     mom_service_port = 15002
+     mom_manager_port = 15003
+
+node-16.local
+     state = free
+     power_state = Running
+     np = 24
+     ntype = cluster
+     jobs = 0-20/12223.clustermaster.uniandes.edu.co
+     status = rectime=1442621075,macaddr=38:63:bb:49:62:70,cpuclock=Fixed,varattr=,jobs=12223.clustermaster.uniandes.edu.co(cput=260312,energy_used=0,mem=42611208kb,vmem=70299268kb,walltime=12542,session_id=62131),state=free,netload=3008742528994,gres=,loadave=21.00,ncpus=24,physmem=198450684kb,availmem=136841476kb,totmem=199474676kb,idletime=3490756,nusers=1,nsessions=1,sessions=62131,uname=Linux node-16.local 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64,opsys=linux
+     mom_service_port = 15002
+     mom_manager_port = 15003
+
+node-17.local
+     state = free
+     power_state = Running
+     np = 24
+     ntype = cluster
+     jobs = 0-14/12169.clustermaster.uniandes.edu.co
+     status = rectime=1442621038,macaddr=38:63:bb:49:93:38,cpuclock=Fixed,varattr=,jobs=12169.clustermaster.uniandes.edu.co(cput=14,energy_used=0,mem=78584kb,vmem=459728kb,walltime=82325,session_id=56077),state=free,netload=1871966118068,gres=,loadave=15.00,ncpus=24,physmem=198450684kb,availmem=172230864kb,totmem=199474676kb,idletime=5122588,nusers=1,nsessions=1,sessions=56077,uname=Linux node-17.local 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64,opsys=linux
+     mom_service_port = 15002
+     mom_manager_port = 15003
+
+node-18.local
+     state = free
+     power_state = Running
+     np = 24
+     ntype = cluster
+     jobs = 16-23/12229.clustermaster.uniandes.edu.co
+     status = rectime=1442621044,macaddr=38:63:bb:49:b5:70,cpuclock=Fixed,varattr=,jobs=12229.clustermaster.uniandes.edu.co(cput=37689,energy_used=0,mem=720844kb,vmem=54648880kb,walltime=4717,session_id=47451),state=free,netload=23882865201760,gres=,loadave=8.00,ncpus=24,physmem=198450684kb,availmem=181807488kb,totmem=199474676kb,idletime=3897148,nusers=1,nsessions=1,sessions=47451,uname=Linux node-18.local 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64,opsys=linux
+     mom_service_port = 15002
+     mom_manager_port = 15003
+
+node-19.local
+     state = free
+     power_state = Running
+     np = 24
+     ntype = cluster
+     jobs = 16-23/12228.clustermaster.uniandes.edu.co
+     status = rectime=1442621054,macaddr=38:63:bb:49:b5:88,cpuclock=Fixed,varattr=,jobs=12228.clustermaster.uniandes.edu.co(cput=38913,energy_used=0,mem=670156kb,vmem=54652044kb,walltime=4863,session_id=35576),state=free,netload=5964005263452,gres=,loadave=8.00,ncpus=24,physmem=198450684kb,availmem=186837092kb,totmem=199474676kb,idletime=5114117,nusers=1,nsessions=1,sessions=35576,uname=Linux node-19.local 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64,opsys=linux
+     mom_service_port = 15002
+     mom_manager_port = 15003
+
